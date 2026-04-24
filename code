@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>吕莎 - AI应用 / AI运营简历</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @supports (font: -apple-system-body) and (-webkit-appearance: none) {
+            body { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; }
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f5f5f7;
+            color: #1d1d1f;
+            -webkit-font-smoothing: antialiased;
+        }
+        .apple-card {
+            background-color: #ffffff;
+            border-radius: 24px;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        ::-webkit-scrollbar { width: 0px; background: transparent; }
+        .text-gradient {
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: linear-gradient(90deg, #1d1d1f, #434345);
+        }
+    </style>
+</head>
+<body class="min-h-screen p-4 md:p-8 lg:p-10">
+
+    <header class="max-w-[1400px] mx-auto mb-8 hidden lg:block">
+        <h1 class="text-xl font-semibold tracking-tight text-[#1d1d1f]/80">Interactive Resume & AI Agent Portfolio</h1>
+    </header>
+
+    <main class="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-start">
+        
+        <div class="lg:col-span-8 flex flex-col gap-6 lg:gap-8">
+            <section class="apple-card p-8">
+                <h1 class="text-4xl font-bold tracking-tight text-gradient mb-2">吕莎</h1>
+                <h2 class="text-[17px] font-medium text-[#0066cc]">AI 应用 / AI 运营 / 数据场景支持</h2>
+                <p class="mt-5 text-[15px] leading-relaxed text-[#515154] max-w-3xl">
+                    关注 AI 在真实业务场景中的落地，擅长从复杂金融业务流程中识别痛点、拆解场景并利用 LLM 重构工作流。
+                </p>
+            </section>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 items-stretch">
+                <div class="flex flex-col gap-6">
+                    <section class="apple-card p-8">
+                        <h3 class="text-2xl font-semibold tracking-tight mb-6">教育背景</h3>
+                        <div class="space-y-6">
+                            <div>
+                                <h4 class="font-semibold text-[16px]">伦敦大学学院 (UCL)</h4>
+                                <p class="text-[15px] text-[#1d1d1f] mt-1 font-medium">数据科学 (公共政策方向) <span class="text-[#1d1d1f] font-normal">| 硕士</span></p>
+                                <p class="text-[14px] text-[#515154] mt-2">核心课程: 机器学习、深度学习、因果推断</p>
+                            </div>
+                            <div class="w-full h-[1px] bg-[#d2d2d7]/50"></div>
+                            <div>
+                                <h4 class="font-semibold text-[16px]">中国计量大学</h4>
+                                <p class="text-[15px] text-[#1d1d1f] mt-1 font-medium">金融工程 <span class="text-[#1d1d1f] font-normal">| 本科</span></p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="apple-card p-8">
+                        <h3 class="text-2xl font-semibold tracking-tight mb-6">工作经历</h3>
+                        <div>
+                            <h4 class="font-semibold text-[17px]">道富信息科技 (浙江) 有限公司</h4>
+                            <p class="text-[15px] text-[#1d1d1f] mt-1 font-medium">数据分析师 <span class="text-[#1d1d1f] font-normal">| 2024.04 - 至今</span></p>
+                            <ul class="mt-5 space-y-4 text-[14px] text-[#515154]">
+                                <li class="relative pl-4"><span class="absolute left-0 top-2 w-1.5 h-1.5 bg-[#0066cc] rounded-full"></span><strong class="text-[#1d1d1f]">AI 场景探索与 Prompt 设计:</strong> 归类业务高频任务场景，设计并调优核心 prompt。</li>
+                                <li class="relative pl-4"><span class="absolute left-0 top-2 w-1.5 h-1.5 bg-[#0066cc] rounded-full"></span><strong class="text-[#1d1d1f]">业务迁移项目:</strong> 负责北美基金流程向印度迁移，实现知识转移与流程标准化。</li>
+                                <li class="relative pl-4"><span class="absolute left-0 top-2 w-1.5 h-1.5 bg-[#0066cc] rounded-full"></span><strong class="text-[#1d1d1f]">流程优化:</strong> 推动重复性问题的分类治理与逻辑优化。</li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="flex flex-col gap-6 h-full">
+                    <section class="apple-card p-6 shrink-0">
+                        <h3 class="text-[16px] font-semibold tracking-tight mb-4 text-[#1d1d1f]">个人核心技能</h3>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <div class="px-4 py-2.5 bg-[#f5f5f7] text-[#1d1d1f] text-[12px] rounded-xl font-medium flex items-center justify-start border border-[#e5e5ea]">AI 业务场景拆解</div>
+                            <div class="px-4 py-2.5 bg-[#f5f5f7] text-[#1d1d1f] text-[12px] rounded-xl font-medium flex items-center justify-start border border-[#e5e5ea]">Workflow / Agent 设计</div>
+                            <div class="px-4 py-2.5 bg-[#f5f5f7] text-[#1d1d1f] text-[12px] rounded-xl font-medium flex items-center justify-start border border-[#e5e5ea]">上下文工程</div>
+                            <div class="px-4 py-2.5 bg-[#f5f5f7] text-[#1d1d1f] text-[12px] rounded-xl font-medium flex items-center justify-start border border-[#e5e5ea]">复杂业务分析与效果评估</div>
+                        </div>
+                    </section>
+
+                    <section class="apple-card p-8 flex-1 flex flex-col">
+                        <h3 class="text-2xl font-semibold tracking-tight mb-6">AI Portfolio</h3>
+                        <div class="flex flex-col gap-6 flex-1">
+                            <div class="flex-1 rounded-[22px] p-6 transition-all duration-300 bg-[#f8f8f9] hover:bg-white hover:shadow-lg border border-[#e5e5ea] group flex flex-col">
+                                <div class="flex items-center gap-3 mb-3">
+                                    <div class="w-10 h-10 rounded-[10px] bg-white flex items-center justify-center border border-blue-100 shadow-sm">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0066cc" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                                    </div>
+                                    <h4 class="font-semibold text-[17px]">break 分析助手</h4>
+                                </div>
+                                <p class="text-[14px] text-[#515154] flex-1 leading-relaxed">基于基金运营经验设计的异常分析工具，实现对异常 Case 的自动化原因定位。 </p>
+                                <div class="mt-4 pt-4 border-t border-[#d2d2d7]/30 flex items-center justify-between">
+                                    <div class="flex gap-2">
+                                        <span class="px-2 py-1 bg-white text-[11px] rounded-md border border-[#e5e5ea]">结构化分析</span>
+                                    </div>
+                                    <a href="https://www.coze.cn/store/agent/7629949902646771738?bot_id=true" target="_blank" class="text-[13px] font-medium text-[#0066cc] flex items-center gap-1">体验 →</a>
+                                </div>
+                            </div>
+                            <div class="flex-1 rounded-[22px] p-6 transition-all duration-300 bg-[#f8f8f9] hover:bg-white hover:shadow-lg border border-[#e5e5ea] group flex flex-col">
+                                <div class="flex items-center gap-3 mb-3">
+                                    <div class="w-10 h-10 rounded-[10px] bg-white flex items-center justify-center border border-indigo-100 shadow-sm">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5856d6" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line></svg>
+                                    </div>
+                                    <h4 class="font-semibold text-[17px]">行业研究报告助手</h4>
+                                </div>
+                                <p class="text-[14px] text-[#515154] flex-1 leading-relaxed">基于行研方法论搭建，支持从摘要到全文的结构化并行生成与交互优化。</p>
+                                <div class="mt-4 pt-4 border-t border-[#d2d2d7]/30 flex items-center justify-between">
+                                    <div class="flex gap-2">
+                                        <span class="px-2 py-1 bg-white text-[11px] rounded-md border border-[#e5e5ea]">工作流编排</span>
+                                    </div>
+                                    <a href="https://www.coze.cn/store/agent/7628883951284944950?bot_id=true" target="_blank" class="text-[13px] font-medium text-[#0066cc] flex items-center gap-1">体验 →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <div class="lg:col-span-4 flex flex-col h-full lg:sticky lg:top-8">
+            <h3 class="text-2xl font-semibold tracking-tight mb-4 px-2">Chat With AI Assistant</h3>
+            <div class="apple-card p-2 relative flex-1 flex flex-col" style="min-height: 720px; border-radius: 32px;">
+                <div class="w-full h-full bg-[#f5f5f7] rounded-[24px] overflow-hidden relative">
+                    <iframe src="https://udify.app/chatbot/ZzUZRhDK3m39Gq2d" style="width: 100%; height: 100%; min-height: 700px;" frameborder="0" allow="microphone"></iframe>
+                </div>
+            </div>
+            <p class="mt-4 text-center text-xs font-semibold text-[#86868b] uppercase tracking-widest">Powered By Dify</p>
+        </div>
+    </main>
+</body>
+</html>
